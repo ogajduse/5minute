@@ -1,7 +1,7 @@
 Name:    5minute
-Version: 0.2.31
+Version: 0.2.32
 
-Release: 0%{?dist}
+Release: 1%{?dist}
 Summary: Command line tool for getting instance from OpenStack
 
 License: GPLv2
@@ -52,6 +52,9 @@ Give me an instance of mine image on OpenStack. Hurry!
 %{python3_sitelib}/*
 
 %changelog
+* Fri Mar 29 2019 Ondřej Gajdušek <ogajduse@redhat.com> 0.2.32-1
+- new package built with tito
+
 * Tue Jun 19 2018 Martin Korbel <mkorbel@redhat.com> - 0.2.31-0
 - The better detection of end of the installation
 - The option and non-option arguments can be intermixed (GNU style scanning mode)
